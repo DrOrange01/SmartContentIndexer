@@ -1,13 +1,9 @@
 ﻿using SmartContentIndexer.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using SmartContentIndexer.Core.Models;
 using System.Text.Json;
+using System.Runtime.InteropServices;
+using System.Collections.Generic;
+using System.Reflection.Emit;
 
 namespace SmartContentIndexer.Infrastructure.Data
 {

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace SmartContentIndexer.Core.Interfaces
 {
-    public interface IConfigurationService
+    public interface IConfigurationService : IDisposable
     {
         // Indexing settings
         List<string> GetWatchedDirectories();
